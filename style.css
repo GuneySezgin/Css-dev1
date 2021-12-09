@@ -1,0 +1,70 @@
+body{
+    background-image: url("image/arkaplan.jpg"); /*arka plan için gereken ayarlar*/
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*********Listeyi ve Linkleri düzenleme*******/
+ul{
+    color: blue;
+    text-decoration:underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style-type: none; /* liste nesnelerinin önündeki noktaları kaldırır*/
+    background-color: darkgrey; /* liste arka plan rengini belirler*/
+    height: 40px; /*liste yüksekliği değerini ayarlar*/
+    padding-left: 40%; /*menüyü hareket ettirmek için kullanılıyor*/
+    
+}
+ul li{
+    float: left; /*liste nesnelerini yanyana sıralar*/
+    height: 40px; /*liste nesnelerinin yükseklik değerini ayarlar*/
+}
+ul li:hover{
+    background-color: cornsilk; /*üzerine gelinen liste nesnesinni rengini değiştirri*/
+
+}
+ul li a{display:block; /*linkin görüntülenme ayarı*/
+     padding: 10px; /*Link ile nesne arasındaki mesafe*/
+     text-align: center; /*link yazısını ortalı yapar*/
+     text-decoration: none; /*link yapısındaki standart altı çizili özelliğini iptal eder*/
+     font-weight: bold; /*link yazısını kalın yapar*/
+     color: darkblue; /*link yazı rengini belirler*/
+
+}
+/********Ana Başlıklar ve Paragraflar********/
+h1{
+    color:darkblue;
+    text-align: center;
+}
+h2{
+    color: darkred;
+    text-decoration:underline;
+    font-size: 30px;
+    
+    
+}
+p{
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+}
+/************ürünler kısmında ürünlerin listelendiği kısımın dizaynı********/
+ol{
+    list-style-type: none;
+    text-align: center;
+
+}
+ol p{
+    color:darkblue;
+    text-decoration:underline;
+    font-size: 30px;
+    
+}
+ol li{
+    color: darkblue;
+    font-size: 30px;
+}
+
